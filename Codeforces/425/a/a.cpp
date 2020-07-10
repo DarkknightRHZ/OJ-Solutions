@@ -1,0 +1,63 @@
+/**
+
+
+  ######                                                                     ######   #     #  #######
+  #     #    ##    #####   #    #  #    #  #    #  #   ####   #    #  #####  #     #  #     #       #
+  #     #   #  #   #    #  #   #   #   #   ##   #  #  #    #  #    #    #    #     #  #     #      #
+  #     #  #    #  #    #  ####    ####    # #  #  #  #       ######    #    ######   #######     #
+  #     #  ######  #####   #  #    #  #    #  # #  #  #  ###  #    #    #    #   #    #     #    #
+  #     #  #    #  #   #   #   #   #   #   #   ##  #  #    #  #    #    #    #    #   #     #   #
+  ######   #    #  #    #  #    #  #    #  #    #  #   ####   #    #    #    #     #  #     #  #######
+
+
+
+**/
+/*
+
+    BismiLLAHIR RAHMANIR RAHIM
+    It's not how you look or who you are underneath, it's what you do that defines you
+
+                                ------********-------
+
+    Status : ;
+    TC: xxx/xxx;
+    DOS: ;
+    OJ: ;
+
+*/
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#define PB          push_back
+#define PF          push_front
+#define  V          vector
+#define PII         pair <int,int>
+
+typedef long long int           LL;
+
+const double EPS = 1e-9;
+const double PI = acos(-1.0);
+
+int GCD (int x, int y){if (x%y==0) return y; else return (GCD(y,x%y));}
+
+int main()
+{
+    #ifdef PowerIsPrayed
+        freopen("get.txt","r",stdin);
+    #endif // PowerIsPrayed
+    LL n , k, i, j;
+    while (cin >> n >> k) {
+        LL cns = k;
+        LL div = n / k;
+        LL rem = n % k;
+        if (div % 2LL == 0) {
+            cout << "NO" << endl;
+        }
+        else {
+            cout << "YES" << endl;
+        }
+    }
+    return 0;
+}
